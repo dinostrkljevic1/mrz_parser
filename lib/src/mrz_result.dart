@@ -10,7 +10,7 @@ class MRZResult {
     required this.nationalityCountryCode,
     required this.birthDate,
     required this.sex,
-    required this.expiryDate,
+    this.expiryDate,
     required this.personalNumber,
     this.personalNumber2,
   });
@@ -23,7 +23,7 @@ class MRZResult {
   final String nationalityCountryCode;
   final DateTime birthDate;
   final Sex sex;
-  final DateTime expiryDate;
+  final DateTime? expiryDate;
   final String personalNumber;
   final String? personalNumber2;
 

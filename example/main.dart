@@ -1,4 +1,4 @@
-import 'package:mrz_parser/mrz_parser.dart';
+import '../lib/mrz_parser.dart';
 
 void main() {
   final mrz = [
